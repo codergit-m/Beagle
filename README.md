@@ -1,53 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beagle</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beagle Dog Trivia</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Stylesheet link (assumed styles.css exists and matches Figma) -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <div class="section_1">
-        <h1>The Beagle Blog</h1>
-        <p>
-            The Beagle is a breed of small scent hound, similar in appearance to the much larger foxhound. The beagle
-            was developed primarily for hunting hare, known as beagling. Possessing a great sense of smell and superior
-            tracking instincts, the beagle is the primary breed used as a detection dog for prohibited agricultural
-            imports and foodstuffs in quarantine around the world. The beagle is intelligent and is a popular pet due to
-            its size, good temper, and a lack of inherited health problems.
-        </p>
-        <a class="read_more" href="https://en.wikipedia.org/wiki/Beagle" target="_blank">Read
-            more</a>
-    </div>
-    <div class="section_2">
-        <h1>
-            Images
-        </h1>
-        <div class="dog_conatiner">
-            <img src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" alt="Dog" />
-        </div>
 
-        <a class="read_more"
-            href="https://www.google.com/search?q=beagle&rlz=1C5CHFA_enUS944US945&sxsrf=ALiCzsYi_xLzuX5-mgRt-U2UMiiEwhaCTA:1672839794160&source=lnms&sa=X&ved=2ahUKEwiat8ntha78AhVnDbcAHX7UCYYQ_AUoAXoECAEQAw&biw=1629&bih=894&dpr=2.2&udm=2#vhid=TxZas2ani8v5yM&vssid=mosaic"
-            target="_blank">More Images</a>
-    </div>
-    <div class="section_3">
-        <h1>Trivia</h1>
-        <div class="list_container">
-            <ol>
-                <li>Height - 13–16 in (33–41 cm)</li>
-                <li>Weight - 22–25 lb (10.0–11.3 kg)</li>
-                <li>Coat -Short haired, hard coat of medium length </li>
-                <li>Colour -Tricolor or white in combination with black & tan/brown or brown/tan</li>
-                <li>Life span - 12–15 years</li>
+    <!-- Top Section -->
+    <section class="top-section">
+        <h1>Learn About Beagles</h1>
+        <p>Beagles are small, curious, and friendly dogs known for their excellent sense of smell.</p>
+        <a href="https://en.wikipedia.org/wiki/Beagle" target="_blank" rel="noopener noreferrer" class="read-more">Read More</a>
+    </section>
 
-            </ol>
-        </div>
+    <!-- Image Section -->
+    <section class="image-section">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Beagle_600.jpg/440px-Beagle_600.jpg" alt="Beagle Dog" />
+        <a href="https://www.google.com/search?q=beagle&tbm=isch" target="_blank" rel="noopener noreferrer" class="more-images">More Images</a>
+    </section>
 
-    </div>
+    <!-- Trivia Section -->
+    <section class="trivia-section">
+        <h2>Beagle Trivia</h2>
+        <ol>
+            <li><strong><em>Origin:</em></strong> Beagles originated in England and were bred for hunting hare.</li>
+            <li><strong><em>Size:</em></strong> They typically weigh between 20-30 pounds and stand about 13-15 inches tall.</li>
+            <li><strong><em>Scent:</em></strong> Beagles have one of the best senses of smell among dog breeds.</li>
+            <li><strong><em>Temperament:</em></strong> Friendly, curious, and merry, making them great family pets.</li>
+            <li><strong><em>Popular Culture:</em></strong> Snoopy, a famous cartoon dog, is a Beagle.</li>
+        </ol>
+    </section>
+
 </body>
-
 </html>
